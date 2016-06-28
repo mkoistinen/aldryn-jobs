@@ -24,7 +24,7 @@
     <hr>
 
     <div class="lead">
-        {% render_model job_opening "lead_in" "lead_in" safe %}
+        {% render_model job_opening "lead_in" "" "" safe %}
     </div>
     {% if detail_view %}
         {% render_placeholder job_opening.content %}
